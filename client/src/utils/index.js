@@ -1,5 +1,5 @@
 import FileSaver from 'file-saver';
-import { CyberPrompts } from '../constant';
+import { CyberPrompts } from '../costant';
 
 export function getRandomPrompt(prompt) {
   const randomIndex = Math.floor(Math.random() * CyberPrompts.length);
